@@ -12,7 +12,7 @@
         const errorDisplay = document.querySelector("#error");
         const successDisplay = document.querySelector("#success");
 
-        fetch('/', {
+        fetch('./', {
           method: 'POST',
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
           body: new URLSearchParams(formData).toString()
